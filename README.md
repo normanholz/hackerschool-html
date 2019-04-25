@@ -117,4 +117,23 @@ Repository for the Hackerschool HTML Course
     
     </body>
     </html>    
-     
+         
+ ## Schritt 13: Schriften anpassen
+ 
+     body {
+         font-family: Arial, sans-serif;
+     }
+    
+     h1 {
+         text-align: center;
+         text-transform: uppercase;
+         padding: 20px;
+         color: #0000FF;
+     }
+    
+     h2 {
+         text-align: center;
+         margin-bottom: 50px;
+         text-transform: uppercase;
+         font-weight: 300;
+     }
