@@ -184,3 +184,95 @@ Repository for the Hackerschool HTML Course
      
      </body>
      </html>
+     
+     
+## Schrit 15: Animationen mit CSS
+
+    <head>
+        <title>Coole Animationen</title>
+        <style>
+            .flex-container {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            h1 {
+                border: 1px solid black;
+                text-align: center;
+                padding: 20px;
+                margin: 20px;
+            }
+    
+            div {
+                width: 100px;
+                height: 100px;
+                padding: 20px;
+            }
+    
+            div#animated-box-1 {
+                background-color: red;
+                animation-name: animation-box-1;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+    
+            div#animated-box-2 {
+                position: relative;
+                background-color: red;
+                animation-name: animation-box-2;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+    
+            div#animated-box-3 {
+                background-color: green;
+                animation-name: animation-box-3;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+            }
+    
+            @keyframes animation-box-1 {
+                from {background-color: red;}
+                to {background-color: yellow;}
+            }
+    
+            @keyframes animation-box-2 {
+                0%   {background-color:red; left:0px; top:0px;}
+                25%  {background-color:yellow; left:200px; top:0px;}
+                50%  {background-color:blue; left:200px; top:200px;}
+                75%  {background-color:green; left:0px; top:200px;}
+                100% {background-color:red; left:0px; top:0px;}
+            }
+    
+            @keyframes animation-box-3
+            {
+                0% {transform: rotate(0deg);left:0px;}
+                25% {transform: rotate(20deg);left:0px;}
+                50% {transform: rotate(0deg);left:500px;}
+                55% {transform: rotate(0deg);left:500px;}
+                70% {transform: rotate(0deg);left:500px;background:#1ec7e6;}
+                100% {transform: rotate(-360deg);left:0px;}
+            }
+    
+        </style>
+    </head>
+    <body>
+    
+    <h1>Coole Animationen</h1>
+    
+    <div class="flex-container">
+        <div class="flex-item">
+            <div id="animated-box-1"></div>
+        </div>
+        <div class="flex-item">
+            <div id="animated-box-2"></div>
+        </div>
+        <div class="flex-item">
+            <div id="animated-box-3"></div>
+        </div>
+    </div>
+    
+    </body>
+    </html>
