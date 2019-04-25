@@ -1,108 +1,55 @@
 <html>
 <head>
-    <title>Hacker School</title>
+    <title>Simpsons Quote Generator</title>
     <style>
+        @font-face {
+            font-family: Simpsons;
+            src: url('./fonts/simpsons.otf');
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: Simpsons, sans-serif;
+            background-color: #1A9172;
+            color: #FEFE19;
         }
 
-        h1 {
-            text-align: center;
-            text-transform: uppercase;
-            padding: 20px;
-            color: #0000FF;
+        #reload-button {
+            color: #FEFE19;
+            margin: 5px;
+            cursor: pointer;
         }
 
-        h2 {
-            text-align: center;
-            margin-bottom: 50px;
-            text-transform: uppercase;
-            font-weight: 300;
-        }
-
-
-        h1 {
-            text-align: center;
-            text-transform: uppercase;
-            padding: 20px;
-            color: #0000FF;
-        }
-
-        h2 {
-            text-align: center;
-            margin-bottom: 50px;
-            text-transform: uppercase;
-            font-weight: 300;
-        }
-
-        p {
-            color: cornflowerblue;
-        }
-
-        #htmlElemente {
-            color: orange;
+        #reload-button:hover {
+            color: red;
         }
     </style>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
 </head>
 <body>
 
-<!-- Headlines -->
-<h1>Hallo Hacker School.</h1>
-<h2>Hallo Hacker School.</h2>
-<h3>Hallo Hacker School.</h3>
-<h4>Hallo Hacker School.</h4>
-<h5>Hallo Hacker School.</h5>
-<h6>Hallo Hacker School.</h6>
+<img src="https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2Fsimpsons.PNG?1497481539770"/>
 
-<div id="htmlElemente">
+<div id="reload-button">Neues Zitat laden</div>
 
-    <p>
-        <strong>Es gibt viele <em>HMTL</em> Elemente</strong>:
-    <ul>
-        <li>p</li>
-        <li>br</li>
-        <li>img</li>
-        <li>ul</li>
-        <li>ol</li>
-        <li>...</li>
-    </ul>
+<script>
 
-    Jede Seite beinhaltet aber <u>immer</u>:
-    <ol>
-        <li>
-            head
-        </li>
-        <li>
-            body
-        </li>
-    </ol>
+    $("#reload-button").click(function () {
+        $.getJSON("https://thesimpsonsquoteapi.glitch.me/quotes", function (data) {
+            console.log(data);
+            $("#quote").html(data[0]["quote"]);
+            $("#character").html(data[0]["character"]);
+            $("#character-image").attr('src', data[0]["image"]);
+        });
+    });
 
-    </p>
-
-</div>
-
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</script>
 
 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    <br/>
-    <br/>
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+<div id="quote"></div>
+<div id="character"></div>
+<img id="character-image" src=""/>
 
-
-<a href="pages/box.html">CSS Box Model</a>
-
-<a href="pages/image.html">Coole Bilder. Hier klicken!</a>
-
-<a href="pages/animations.html">Coole Animationen. Hier klicken!</a>
 
 </body>
