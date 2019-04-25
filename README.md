@@ -48,3 +48,13 @@ Repository for the Hackerschool HTML Course
 `<body></body>`
 
 `<title>Hacker School</title>`
+
+## Schritt 7: Elemente Paragraph und Listen
+
+`<p></p>`
+
+`<ol></ol>`
+
+`<ul></ul>`
+
+`<li></li>`
