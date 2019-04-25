@@ -36,3 +36,15 @@ Repository for the Hackerschool HTML Course
 ## Schritt 5: Eigenschaften der Elemente
 
 `<h1 style=„color: orange“>Hallo Hacker School.</h1>`
+
+## Schritt 6: Seitenelemente Head und Body
+
+- Chrome Dev Tools
+
+`<html></hmtl`
+
+`<head></head>`
+
+`<body></body>`
+
+`<title>Hacker School</title>`
