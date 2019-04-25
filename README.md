@@ -22,3 +22,13 @@ Repository for the Hackerschool HTML Course
 ## Schritt 3: Schachtelung von Elementen
 
 `<strong>Ich bin immmer dick und manchmal <em>schief</em> und <del>durchgestrichen</del>.</strong>`
+
+## Schritt 4: Bilder
+
+`mkdir images`
+
+`cd images`
+
+`curl "https://www.hacker-school.de/fileadmin/env/default/images/logo.png"`
+
+`<img alt="Ich bin ein Bild" src="images/meme.jpg" />`
