@@ -1,5 +1,23 @@
 # hackerschool-html
-Repository for the Hackerschool HTML Course 
+Repository for the Hackerschool HTML Course
+
+# HTML Dokumentation:
+- https://www.w3schools.com/tags/
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+
+# CSS Dokumentation:
+  
+- https://www.mediaevent.de/css/
+- https://wiki.selfhtml.org/wiki/Box-Modell
+- https://developer.mozilla.org/de/Learn/Getting_started_with_the_web/CSS_basics
+- https://blog.kulturbanause.de/2013/07/einfuhrung-in-das-flexbox-modell-von-css/
+- https://wiki.selfhtml.org/wiki/Schnell-Index/CSS
+- https://www.w3schools.com/css/css3_animations.asp
+- https://www.w3schools.com/cssref/
+
+# Farben
+
+- https://htmlcolorcodes.com/color-names/
 
 # Kursnotizen
 
