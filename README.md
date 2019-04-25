@@ -75,21 +75,46 @@ Repository for the Hackerschool HTML Course
 
 ## Schritt 11: DRY CSS Stylesheet im Head Element
 
-`<style>
+    <style>
          img {
              width: 100%;
              height: auto;
          }
      </style>`
      
-`<style>
+    <style>
          p {
              color: cornflowerblue;
          }
          #htmlElemente {
              color: orange;
          }
-     </style>`   
+     </style>   
      
-`<div id="htmlElemente">`     
+    <div id="htmlElemente">
+    
+## Schritt 12: CSS Box Model
+
+<img src="https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png"/>
+
+
+    <head>
+        <title>CSS Box Model</title>
+    </head>
+    <style>
+        h1 {
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+    <body>
+    
+    <h1>Das CSS Box Model</h1>
+    
+    <img alt="CSS Box Model" src="https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png"/>
+    
+    </body>
+    </html>    
      
