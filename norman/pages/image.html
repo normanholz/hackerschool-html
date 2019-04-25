@@ -1,9 +1,44 @@
 <head>
-    <title>CSS Box Model</title>
+    <title>Coole Bilder</title>
+    <style>
+        .flex-container {
+            border: solid 1px black;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        img {
+            width: 300px;
+            padding: 20px;
+        }
+
+        h1 {
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
 
-<img alt="CSS Box Model" src="../images/meme.jpg"/>
+<h1>Coole Bilder</h1>
+
+<div class="flex-container">
+    <div class="flex-item">
+        <img alt="" src="../images/meme.jpg"/>
+    </div>
+    <div class="flex-item">
+        <img alt="" src="../images/meme.jpg"/>
+    </div>
+    <div class="flex-item">
+        <img alt="" src="../images/meme.jpg"/>
+    </div>
+</div>
 
 </body>
 </html>
