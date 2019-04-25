@@ -72,3 +72,24 @@ Repository for the Hackerschool HTML Course
 ## Schritt 10: Bildgröße per CSS steuern
 
 `<img style="width: 100%; height: auto" alt="Ich bin ein Bild" src="../images/meme.jpg"/>`
+
+## Schritt 11: DRY CSS Stylesheet im Head Element
+
+`<style>
+         img {
+             width: 100%;
+             height: auto;
+         }
+     </style>`
+     
+`<style>
+         p {
+             color: cornflowerblue;
+         }
+         #htmlElemente {
+             color: orange;
+         }
+     </style>`   
+     
+`<div id="htmlElemente">`     
+     
