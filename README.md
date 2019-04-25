@@ -18,3 +18,7 @@ Repository for the Hackerschool HTML Course
 `<i>Ich bin schief.</i>`
 
 `<em>Ich auch.</em>`
+
+## Schritt 3: Schachtelung von Elementen
+
+`<strong>Ich bin immmer dick und manchmal <em>schief</em> und <del>durchgestrichen</del>.</strong>`
