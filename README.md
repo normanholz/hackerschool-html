@@ -32,3 +32,7 @@ Repository for the Hackerschool HTML Course
 `curl "https://www.hacker-school.de/fileadmin/env/default/images/logo.png"`
 
 `<img alt="Ich bin ein Bild" src="images/meme.jpg" />`
+
+## Schritt 5: Eigenschaften der Elemente
+
+`<h1 style=„color: orange“>Hallo Hacker School.</h1>`
