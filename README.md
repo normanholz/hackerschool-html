@@ -58,3 +58,9 @@ Repository for the Hackerschool HTML Course
 `<ul></ul>`
 
 `<li></li>`
+
+## Schritt 8: Verlinkung zu anderen Seiten
+
+`mkdir pages`
+
+`<a href=""></a>`
