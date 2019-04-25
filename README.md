@@ -64,3 +64,7 @@ Repository for the Hackerschool HTML Course
 `mkdir pages`
 
 `<a href=""></a>`
+
+## Schritt 9: Divs als neutrale Elemente mit Eigenschaften
+
+`<div style="color: orange">`
