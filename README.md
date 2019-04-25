@@ -68,3 +68,7 @@ Repository for the Hackerschool HTML Course
 ## Schritt 9: Divs als neutrale Elemente mit Eigenschaften
 
 `<div style="color: orange">`
+
+## Schritt 10: Bildgröße per CSS steuern
+
+`<img style="width: 100%; height: auto" alt="Ich bin ein Bild" src="../images/meme.jpg"/>`
