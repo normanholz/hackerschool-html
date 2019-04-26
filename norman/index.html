@@ -35,14 +35,19 @@
 
 <script>
 
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+    }
+
     $("#reload-button").click(function () {
         // var remote = "https://thesimpsonsquoteapi.glitch.me/quotes";
         var local = "./data/quotes.json";
+        var index = getRandomInt(20);
         $.getJSON(local, function (data) {
             console.log(data);
-            $("#quote").html(data[0]["quote"]);
-            $("#character").html(data[0]["character"]);
-            $("#character-image").attr('src', data[0]["image"]);
+            $("#quote").html(data[index]["quote"]);
+            $("#character").html(data[index]["character"]);
+            $("#character-image").attr('src', data[index]["image"]);
         });
     });
 
