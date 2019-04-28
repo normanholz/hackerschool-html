@@ -1,0 +1,118 @@
+
+      body {
+      background-color: #e94e1b;
+
+
+      }
+    .kopf {
+      background: linear-gradient(to bottom right, orange, red);
+      height: 40px;
+      border-bottom-color: red;
+      border-bottom-style: solid;
+      animation-name: fade;
+      animation-duration: 2s;
+    }
+    .inhalt {
+      border-color: #E6E6FA;
+      border-radius: 5px;
+      border-style: solid;
+      margin-top: 30px;
+      margin-left: 5%;
+      width: 55%;
+      height: 500px;
+      background-color: white;
+      float: left;
+      animation-name: fade;
+      animation-duration: 1s;
+      word-wrap: break-word;
+      overflow-y: auto;
+    }
+    .news {
+      border-color: #E6E6FA;
+      border-radius: 5px;
+      border-style: solid;
+      margin-top: 30px;
+      margin-right: 5%;
+      width: 20%;
+      height: 500px;
+      background-color: white;
+      float: right;
+      animation-name: fade;
+      animation-duration: 1s;
+      word-wrap: break-word;
+    }
+    .textn {
+      color: white;
+      text-decoration: none;
+      margin-top: 2px;
+      font-family: sans-serif;
+      cursor: pointer;
+    }
+
+    .textn:hover {
+        background: linear-gradient(to bottom right, orange, red);
+    }
+    .right {
+      float: right;
+      margin-right: 30px;
+      font-size: 200%;
+    }
+
+    .ueberschrift  {
+      margin-left: 10px;
+      font-size: 220%;
+      color: white;
+      text-decoration: none;
+      margin-top: 2px;
+      font-family: sans-serif;
+      cursor: pointer;
+    }
+    .weiterlesen {
+      text-decoration: none;
+      color: gray;
+      cursor: pointer;
+    }
+    .news1 {
+      text-decoration: underline;
+    }
+    .news1 a {
+      margin-left: 32px;
+      font-size: 20px;
+      text-decoration: underline;
+      color: black;
+    }
+    .newb {
+      margin-bottom: 10px;
+      margin-left: 20px;
+      font-family: sans-serif;
+    }
+    .beitrag {
+      padding: 10px;
+            font-family: sans-serif;
+    }
+    .FadeAnimation {
+      animation-name: fade;
+      animation-duration: 1s;
+
+    }
+    #beitraege ul li  {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    #beitraege ul li a {
+      margin-right: 20px;
+      font-size: 20px;
+    }
+    .social {
+      margin-bottom: 10px;
+      margin-left: 20px;
+      text-decoration: underline;
+      color: black;
+      cursor: pointer;
+      font-family: sans-serif;
+    }
+
+    @keyframes fade {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
