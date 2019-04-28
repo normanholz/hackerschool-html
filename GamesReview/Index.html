@@ -1,0 +1,364 @@
+<html>
+  <meta charset="utf-8">
+  <head>
+    <style>
+    .flex-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: stretch;
+      flex-basis: auto;
+      flex-wrap: wrap;
+    }
+    .flex-item {
+      flex-shrink: 1;
+      border: 1px solid black;
+      cursor: pointer;
+    }
+    #menu-container {
+      width: 1000px;
+      height: auto;
+    }
+    h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 20px;
+  }
+    h2 {
+      border: 5px solid black;
+      padding: 5px;
+      margin: 20px;
+    }
+    h3 {
+      text-align: center;
+      text-decoration: underline;
+    }
+    body {
+      background: linear-gradient(to bottom, green, blue);
+      color: orange;
+    }
+    a {
+      color: moccasin;
+    }
+
+    </style>
+    <title>
+      GameReview
+    </title>
+    <script>
+      function hideAll() {
+        console.log("Test")
+        document.getElementById("Rider-Online").style.display = "none";
+        document.getElementById("WorldCraft_2").style.display = "none";
+        document.getElementById("HelixJump").style.display = "none";
+        document.getElementById("ExtremeCarDrivingSimulator").style.display = "none";
+        document.getElementById("DoodleJump").style.display = "none";
+        document.getElementById("PaintballWars").style.display = "none";
+        document.getElementById("Billard").style.display = "none";
+        document.getElementById("StickmanHook").style.display = "none";
+      }
+      function showRiderOnline() {
+        hideAll();
+        document.getElementById("Rider-Online").style.display = "block";
+      }
+      function showWorldCraft() {
+        hideAll();
+        document.getElementById("WorldCraft_2").style.display = "block";
+      }
+      function showHelixJump() {
+        hideAll();
+        document.getElementById("HelixJump").style.display = "block";
+      }
+      function showCarSimulator() {
+        hideAll();
+        document.getElementById("ExtremeCarDrivingSimulator").style.display = "block";
+      }
+      function showDoodleJump() {
+        hideAll();
+        document.getElementById("DoodleJump").style.display = "block";
+      }
+      function showPaintballWars() {
+        hideAll();
+        document.getElementById("PaintballWars").style.display = "block";
+      }
+      function showBillard() {
+        hideAll();
+        document.getElementById("Billard").style.display = "block";
+      }
+      function showStickmanHook() {
+        hideAll();
+        document.getElementById("StickmanHook").style.display = "block";
+      }
+    </script>
+  </head>
+  <body onload="hideAll()">
+    <h1>
+     GameReview
+    </h1>
+    <h2>
+      <ul>
+        <li>
+          Auf GameReview werden Spiele vorgestellt(und verlinkt)
+        </li>
+        <li>
+          Ihr könnt sie dann kostenlos spielen
+        </li>
+        <li>
+          Für jedes Spiel bekommt ihr eine Beschreibung/Erklärung
+        </li>
+      </ul>
+    </h2>
+
+      <div id="menu-container">
+        <div class="flex-container">
+          <div class="flex-item" onclick="showRiderOnline()">
+            <h3>Rider Online</h3>
+            <img alt= "Rider Bild" src="Bilder/Rider.jpeg"/>
+           </div>
+          <div class="flex-item" onclick="showWorldCraft()">
+            <h3>World Craft 2</h3>
+            <img alt="WorldCraft Bild" src ="Bilder/WorldCraft.jpeg"/>
+          </div>
+          <div class="flex-item" onclick="showHelixJump()">
+           <h3>Helix Jump</h3>
+           <img alt="Helix Jump" src="Bilder/HelixJump.jpeg"/>
+          </div>
+          <div class="flex-item" onclick="showCarSimulator()">
+           <h3>Car Driving Simulator</h3>
+           <img alt="ExtremeCarDrivingSimulator" src="Bilder/CarSimulator.jpeg"/>
+          </div>
+          <div class="flex-item" onclick="showDoodleJump()">
+           <h3>Doodle Jump</h3>
+           <img alt="Doodle Jump" src="Bilder/DoodleJump.jpg"/>
+          </div>
+          <div class="flex-item" onclick="showPaintballWars()">
+           <h3>Paintball Wars</h3>
+           <img alt="Paintball Wars" src="Bilder/PaintballWars.jpeg"/>
+          </div>
+          <div class="flex-item" onclick="showBillard()">
+           <h3>Billard</h3>
+           <img alt="Billiard" src="Bilder/Billiard.jpeg"/>
+          </div>
+          <div class="flex-item" onclick="showStickmanHook()">
+           <h3>Stickman Hook</h3>
+           <img alt="Stickman Hook" src="Bilder/StickmanHook.jpeg"/>
+          </div>
+        </div>
+       </div>
+       <div class="Game-Description" id="Rider-Online">
+         <h3>
+           Beschreibung:
+         </h3>
+         <h4>
+
+           Erreiche in diesem beliebten Spielehit einen besonders guten Score, indem du eine möglichst lange Strecke zurücklegst und dabei viele Flips und Saltos drehst. Mit etwas Geschick am Steuer meisterst du auch diesen Race auf der Neonlinie und kannst mit deinen gewagten Sprüngen jede Menge Punkte sammeln.
+
+           Lasse dir die zahlreichen Diamanten nicht entgehen und weiche den gefährlichen Hindernissen aus. Fahre besser nicht gegen die sich drehenden Zahnräder, achte auf die Streckenteile, die hinter dir zusammenbrechen und meistere das Gameplay ohne große Crashs. Dann kannst du in Rider Online unendlich lange weiterfahren und die besten Doppel-Flips hinlegen!         </h4>
+         <h3>
+           Erklärung:
+         </h3>
+         <h4>
+           Wenn du die linke Maustaste gedrückt hältst. kannst du Saltos drehen, die dir wertvolle Punkte bringen.
+           Beim Landen musst du im richtigen Moment wieder loslassen, damit dein Motorrad sich nicht überschlägt.
+         </h4>
+         <h3>
+           <a href="https://www.spielaffe.de/Spiel/Rider-Online" target="_blank">
+              Jetzt spielen!!!
+            </a>
+         </h3>
+       </div>
+       <div class="Game-Description" id="WorldCraft_2">
+         <h3>
+           Beschreibung:
+         </h3>
+         <h4>
+           Worldcraft 2 ist ein herausforderndes Abenteuerspiel, in der du dir in bester Minecraft-Manier deine eigene Welt aus vielen verschiedenen Pixelsteinen zusammenbauen kannst.
+
+           Lande irgendwo auf der Landkarte und fange sogleich an, deine Umgebung nach deinen Wünschen zu gestalten. Du kannst deiner Kreativität freien Lauf lassen und viele nützliche Rohstoffe wie Holz und Steine, aber auch Wasser und Lava nutzen, um dir deine eigenen Städte oder was du willst zu erschaffen. Nutze Waffen und Werkzeuge aus deinem Inventar, fahre mit einem Boot über das Wasser und sprenge mit TNT ganze Areale frei.
+
+           Nutze die unterschiedlichen Blöcke, um Formen und Strukturen zu schaffen und hohe Wolkenkratzer, wehrhafte Burgen und viele andere Gebäude zu bauen - Deiner Fantasie sind in Worldcraft 2 keine Grenzen gesetzt!
+         </h4>
+         <h3>
+           Erklärung:
+         </h3>
+         <h4>
+           Laufe mit WASD oder den Pfeiltasten umher und erkunde und gestalte in Worldcraft 2 bis zu vier Welten. Spiele im Single- oder Multiplayer und nutze unterschiedliche Werkzeuge und Waffen wie die Spitzhacke oder Pfeil und Bogen für deine Aktionen.
+
+           Durch Klicken mit der linken Maustaste kannst du Blöcke zerstören.
+           Mit Klicken der rechten Maustaste kannst du Blöcke platzieren.
+           Mit E kannst du dein Inventar öffnen.
+           Mit Esc kannst du wieder zurück ins Hauptmenü gehen.
+
+         </h4>
+         <h3>
+           <a href="https://www.spielaffe.de/Spiel/Worldcraft-2" target="_blank">
+              Jetzt spielen!!!
+            </a>
+         </h3>
+       </div>
+       <div class="Game-Description" id="HelixJump">
+         <h3>
+           Beschreibung:
+         </h3>
+         <h4>
+           Helix Jump ist ein cooles Geschicklichkeitsspiel, in dem du mit einer Kugel von Plattform zu Plattform nach unten springen kannst.
+
+           Diese Neuerscheinung aus dem Hause Vodoo birgt echtes Suchtpotential und bietet dir die Möglichkeit, den beliebten App-Hit Helix Jump online spielen zu können. Durchquere auch in Helix Jump für den PC eine zylindrische Schraube und springe immer weiter nach unten durch die Lücken in den Plattformen, also uptodown. Das Erfolgsrezept des Spiels liegt in seiner Einfachheit. Wie schon viele andere Arcade Games vor ihm bietet es ein leicht einzusetzendes Spielprinzip, das selten langweilig wird und den Spieler immer wieder zu einer neuen Jagd nach seinem persönlichen Höchststand anstachelt.
+
+           Wie sieht's mit dir aus? Kannst du in diesem coolen Highscorespiel einen neuen Rekord an der Schraube aufstellen? Finde es heraus und stürze dich jetzt in die nächste Runde Helix Jump!
+         </h4>
+         <h3>
+           Erklärung:
+         </h3>
+         <h4>
+           Steuere den hüpfenden Ball mit den Pfeiltasten nach Links und Rechts und lasse ihn durch die Lücken in den Plattformen nach unten fallen. Uptodown nennt man das
+
+           Jeder gelungene Bounce eine Etage tiefer bringt dir einen Punkt ein und zerstört diese Ebene.
+           Sammle zudem die Diamanten ein und investiere sie im Store in neue Bälle.
+           Vermeide es, auf die gelben Plattformen zu springen, denn dann ist das Game vorbei.
+
+         </h4>
+         <h3>
+           <a href="https://www.spielaffe.de/Spiel/Helix-Jump" target="_blank">
+              Jetzt spielen!!!
+            </a>
+         </h3>
+       </div>
+       <div class="Game-Description" id="ExtremeCarDrivingSimulator">
+         <h3>
+           Beschreibung:
+         </h3>
+         <h4>
+           Extreme Car Driving Simulator ist ein cooles Rennspiel, in dem du mit zahlreichen Supercars spannende Challenges bestehen kannst.
+
+           Rase durch zahlreiche aufregende Level, schalte neue offene Welten frei und bringe den Asphalt zum Glühen. Fahre so legendäre Supercars wie den Lotus Spider, den Bugatti Xeron und den Dodge Z Charger und upgrade die Eigenschaften der Autos in regelmäßigen Abständen. Leichte Autos fliegen natürlich besser als schwere PS-Boliden, die wiederum Loopings effizienter durchfahren können.
+
+           Zeige uns im Extreme Car Driving Simulator deine besten Stunts und meistere jede sportliche Herausforderung!
+         </h4>
+         <h3>
+           Erklärung:
+         </h3>
+         <h4>
+           Steuere mit den Pfeiltasten oder WASD und wechsle die Fahrzeuge je nach Bedarf.
+
+           Bleibe innerhalb des Zeitlimits.
+           Folge den grünen Pfeilen, um die einzelnen Checkpoints zu erreichen.
+           Achte stets auf deine Geschwindigkeit und upgrade nach Bedarf.
+         </h4>
+         <h3>
+           <a href="https://www.spielaffe.de/Spiel/Extreme-Car-Driving-Simulator" target="_blank">
+              Jetzt spielen!!!
+            </a>
+         </h3>
+       </div>
+       <div class="Game-Description" id="DoodleJump">
+         <h3>
+           Beschreibung:
+         </h3>
+         <h4>
+           Doodle Jump ist ein cooles Geschicklichkeitsspiel, in dem du mit dem kleinen, lustigen Doodle von Plattform zu Plattform springen kannst.
+
+           Dein Ziel: stelle einen neuen Distanz-Rekord auf und erreiche einen besonders hohen Highscore!
+
+           Auf deinem Weg dahin musst du dich  allerdings auch mit einer Reihe kleiner Monster beschäftigen und kannst beeindruckende Achievements erreichen. Werde zum Beispiel Monster Bouncer, indem du 10 deiner Gegner platt machst, oder spiele eher defensiv und werde Conflict Avoider. Dafür musst du 10 Störenfrieden in einem Spiel aus dem Weg gegangen sein.
+
+           Egal für welche Strategie du dich entscheidest, lasse dich von dem einfachen und zugleich extrem fesselnden Spielprinzip von Doodle Jump Original begeistern und erlebe jede Menge Spaß beim Hüpfen und Springen!
+         </h4>
+         <h3>
+           Erklärung:
+         </h3>
+         <h4>
+            Wähle zuerst einen Spielernamen oder werde einfach ein neuer Doodler. Dein kleiner Doodle will dann schnell hoch hinaus und sich die Welt von oben anschauen.
+
+            Die Steuerung ist simpel und für jeden SpielAffen geeignet.
+
+            Du springst von selbst.
+            Steuere mit den Pfeiltasten nach Rechts und Links.
+            Mit der Pfeiltaste nach oben kannst du aus dem Rüssel des Doodles kleine Kugeln schießen.
+            Wenn du aus dem Spielfeld gesprungen bist, wirst du auf der entgegengesetzten Spielfeldseite wieder ins Spiel gebracht.
+         </h4>
+         <h3>
+           <a href="https://www.spielaffe.de/Spiel/Doodle-Jump" target="_blank">
+              Jetzt spielen!!!
+            </a>
+         </h3>
+       </div>
+       <div class="Game-Description" id="PaintballWars">
+         <h3>
+           Beschreibung:
+         </h3>
+         <h4>
+           Xtreme Paintball Wars ist ein cooler Shooter, in dem du dich mit einer Farb-Waffe durch eine aufregende Pixel-Welt (wie „Pixel Gun 3D“) kämpfen und auf echte Gegner ballern kannst!
+
+          Spiele entweder im Multiplayer oder Single Player-Modus und schieße mit der Maus. Mit WASD kannst du dich bewegen und mit 1 und 2 eine Waffe auswählen. Sogar eine Steinschleuder dient dir als Mittel zum bunten Angriff. Laufe mit Shift und tauche deine Gegner in den Kugelhagel. Lasse dich auch von den lustigen Sonderthemen wie dem Zombieangriff begeistern oder werfe auch mal mit Herzen statt mit Farbmunition.
+         </h4>
+         <h3>
+           Erklärung:
+         </h3>
+         <h4>
+           Am Anfang wählst du PvP- oder PvE-Modus. Im Spiel steuerst du mit WASD, schießt mit Linksklick und zieltst mit Rechtsklick. Du kriechst mit C und rennst mit Shift. Du wechselst die Waffen mit 1...9. Auf TAB öffnest du das Menü.
+         </h4>
+         <h3>
+           <a href="https://www.spielaffe.de/Spiel/Xtreme-Paintball-Wars" target="_blank">
+              Jetzt spielen!!!
+            </a>
+         </h3>
+       </div>
+       <div class="Game-Description" id="Billard">
+         <h3>
+           Beschreibung:
+         </h3>
+         <h4>
+           Super Billard 2 ist ein cooles Billardspiel, in dem ihr zu Zweit an einem PC eine Runde Pool spielen könnt.
+
+           Billard und Snooker sind beliebte Freizeitsportarten, die für jede Menge Geselligkeit sorgen. Nutze die Chance, dieses tolle Gemeinschaftserlebnis auch bei dir zu Hause am Computer zu erleben und lade dir einmal einen Freund für eine Partie Super Billard 2 ein. Gemeinsam macht das Spielen noch viel mehr Spaß!
+
+           Die Spielregeln sind schnell erklärt und dann könnt ihr auch schon zusammen das Queue schwingen. Wer trifft die meisten Billardkugeln und sind es überhaupt die richtigen? Findet es zusammen heraus und legt einfach los. Mit etwas Geschick und der richtigen Planung von Winkeln und Spielzügen wird Super Billard 2 zu einem ganz besonderen Spielerlebnis.
+         </h4>
+         <h3>
+           Erklärung:
+         </h3>
+         <h4>
+           Wähle zuerst aus, ob du 8-Ball oder Straight Pool spielen willst. Entscheide dann, ob du alleine gegen den Computer oder gegen einen Freund oder eine Freundin an einem PC spielen möchtest.
+
+           Beide Varianten werden mit 15 farbigen Kugeln und einer weißen Kugel gespielt.
+           Es gibt jeweils sieben volle und sieben halbe Kugeln und eine schwarze 8. Volle Kugeln sind ganzfarbig, halbe Kugeln halb weiß und halb farbig.
+           Beim 8-Ball will jeder Spieler seine eigenen Kugeln einlochen, bevor er dann die 8 versenken muss.
+           Beim Straight Pool gibt es keine Sets. Das Ziel ist es, als erster Spieler 8 Kugeln egal welcher Farbe einzulochen.
+          Benutze die Maus, um die Schussstärke und Schussrichtung zu bestimmen.
+         </h4>
+         <h3>
+           <a href="https://www.spielaffe.de/Spiel/Super-Billard-2" target="_blank">
+              Jetzt spielen!!!
+            </a>
+         </h3>
+       </div>
+       <div class="Game-Description" id="StickmanHook">
+         <h3>
+           Beschreibung:
+         </h3>
+         <h4>
+           Stickman Hook ist ein cooles Geschicklichkeitsspiel, in dem du ein Strichmännchen wie Tarzan von Seil zu Seil bis ins Ziel schwingen kannst.
+
+           Vollführe die waghalsigsten Kunststücke und lasse deinen Akrobaten in Stickman Hook durch die Lüfte fliegen. Steuere ganz einfach mit der Maus und passe den richtigen Moment ab, um wie Spiderman deine Netze auszuwerfen.
+
+           Hangle dich in Stickman Hook von Ankerpunkt zu Ankerpunkt und überquere in Windeseile die Ziellinie!
+         </h4>
+         <h3>
+           Erklärung:
+         </h3>
+         <h4>
+           Spiele dich mit Geschick und dem richtigen Timing durch alle 20 Level und überwinde jede Mauer:
+
+           Klicke mit der linken Maustaste, um das Stickman Rope in Richtung der roten Kugel auszuwerfen. Kaum hängt dein Zielobjekt  am Seil, wird es sich zu einem echten Stickman entfalten, den du munter weiter schwingen kannst.
+           Lasse ihn dann im richtigen Moment los und schwinge über jedes Hindernis hinweg.
+           Fliege schon bald über die Ziellinie und meistere immer anspruchsvollere Szenarien, in denen es auf das richtige Timing ankommt. Oben kannst du an der Fortschrittsleiste sehen, wieviele Prozent des Levels zu schon geschafft hast.
+         </h4>
+         <h3>
+           <a href="https://www.spielaffe.de/Spiel/Stickman-Hook" target="_blank">
+              Jetzt spielen!!!
+            </a>
+         </h3>
+       </div>
+  </body>
+</html>

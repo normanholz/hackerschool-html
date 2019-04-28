@@ -1,0 +1,15 @@
+<h3>
+  Beschreibung:
+</h3>
+<h4>
+  Bei Rider Online geht es darum mit einem Fahrzeug möglichst viele Punkte zu erreichen.
+  Diese erreicht man in dem man Saltos macht, Diamanten einsammelt. Mit Punkten kann man
+  sich neue Autos kaufen.
+</h4>
+<h3>
+  Erklärung:
+</h3>
+<h4>
+  Man gibt Gas indem man die linke Maustaste drückt. Wenn man in der Luft die linke Maustaste
+  drückt fängt das Auto an sich zu drehen.
+</h4>
