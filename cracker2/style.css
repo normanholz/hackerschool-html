@@ -1,0 +1,25 @@
+body {
+  background-image:
+  url("bilder/hinter2.jpg");
+
+  background-repeat: no-repeat.repeat;
+  width: 100%;height: 100%;
+}
+h1  {
+  color: green;
+  font-weight: bold;
+}
+
+.command {
+  color: blue;
+  font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+  font-size :33;
+  background-color: rgba(27,31,35,0.05);
+  border-radius: 14px;
+  font-weight: bold;
+
+}
+.kopf {
+  background-color: lightgrey;
+  color: white;
+}
